@@ -11,4 +11,5 @@
     define("GENERATED_CLASSES", GENERATED."classes/");
     define("GENERATED_MODELS", GENERATED."models/");
     define("GENERATED_CRUD", GENERATED."crud/");
-    
+    define("GENERATED_FAKE_DATA", GENERATED."fake/");
+

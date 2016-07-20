@@ -51,12 +51,21 @@
             <tr>
                 <td><label for="data_type">Data Type</label></td>
                 <td>
-                    <div class="input-control text">
+                    <div class="input-control">
                         <select name="data_type" id="data_type">
                             <option value="json">JSON</option>
                             <option value="sql">Sql</option>
                             <option value="xml">XML</option>
                         </select>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="number">Numbre</label></td>
+                <td>
+                    <div class="input-control text">
+                        <input type="text" id="number" class="number">
                     </div>
                 </td>
             </tr>
@@ -113,9 +122,11 @@
                 $.post(
                     "FakeDataGenerator/generate",
                     {
-                        data:data[i].value,
+                        table:data[i].value,
                         projectName:$("#projectName").val(),
-                        Tour:i//si = 0, creer la structure de base
+                        Tour:i,//si = 0, creer la structure de base
+                        type: $("#data_type").val(),
+                        number: $("#number").val()
                     },
                     function(donnee){
                         //console.log(donnee);
