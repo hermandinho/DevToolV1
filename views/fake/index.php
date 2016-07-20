@@ -35,7 +35,7 @@
                                 ?>
                                 <div class="input-control switch" data-role="input-control">
                                     <label class="inline-block" style="margin-right: 20px">
-                                        <input type="checkbox" class="getSelectedField" name="selectedClasseFields[<?php echo $i; ?>]" value="<?php echo $db_fields[$i]; ?>" checked="">
+                                        <input type="checkbox" class="getSelectedField" name="selectedClasseFields[<?php echo $i; ?>]" value="<?php echo $db_fields[$i]; ?>" >
                                         <span class="check"></span>
                                         <strong><?php echo $db_fields[$i]; ?></strong>
                                     </label>
@@ -64,9 +64,16 @@
             <tr>
                 <td><label for="number">Numbre</label></td>
                 <td>
-                    <div class="input-control text">
-                        <input type="text" id="number" class="number">
+                    <div class="input-control select">
+                        <input type="text" id="number" class="number" value="5">
                     </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="use_id">set Id</label></td>
+                <td>
+                    <input type="checkbox"  id="use_id" name="use_id" class="use_id">
                 </td>
             </tr>
 
@@ -126,7 +133,8 @@
                         projectName:$("#projectName").val(),
                         Tour:i,//si = 0, creer la structure de base
                         type: $("#data_type").val(),
-                        number: $("#number").val()
+                        number: $("#number").val(),
+                        generateId: $("#use_id").is(":checked")
                     },
                     function(donnee){
                         //console.log(donnee);

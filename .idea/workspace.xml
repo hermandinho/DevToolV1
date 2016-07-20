@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d61c7069-8f93-4720-a5ee-e51258ef766f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" afterPath="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/fake/index.php" afterPath="$PROJECT_DIR$/views/fake/index.php" />
     </list>
     <ignored path="WebUtilities.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +44,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/fake/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
-              <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+            <state relative-caret-position="561">
+              <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -61,10 +64,10 @@
       <file leaf-file-name="CrudController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/CrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="357">
               <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
-                <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="true" />
+                <element signature="e#7#191#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,30 +76,34 @@
       <file leaf-file-name="FakeDataGeneratorController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+            <state relative-caret-position="239">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
-                <element signature="n#__construct#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#index#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#generate#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#proccessMetaData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#generateSimple#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#generateComplex#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <marker date="1469027177624" expanded="true" signature="2197:2281" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469027177624" expanded="true" signature="2197:2282" ph="INSERT INTO ${$infos['table']}... " />
+                <element signature="n#sortTables#0;n#FakeDataGeneratorController#0;n#!!top" expanded="false" />
+                <marker date="1469054876020" expanded="true" signature="2513:2598" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469054876020" expanded="true" signature="2653:2690" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469054876020" expanded="true" signature="2653:2694" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469054876020" expanded="true" signature="2653:2716" ph="INSERT INTO ${$infos['table']}... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_fake.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/fake/_fake.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -105,10 +112,10 @@
       <file leaf-file-name="ClassManagerController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ClassManagerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="425">
               <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
               <folding>
-                <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="true" />
+                <element signature="e#7#191#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -117,12 +124,10 @@
       <file leaf-file-name="CLassManagerModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/CLassManagerModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
+            <state relative-caret-position="193">
+              <caret line="128" column="11" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="11" />
               <folding>
-                <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-                <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-                <marker date="1469018826522" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
+                <marker date="1469044906687" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
               </folding>
             </state>
           </provider>
@@ -131,16 +136,9 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="799">
               <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-              <folding>
-                <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-                <element signature="n#useDataBase#0;n#Model#0;n#!!top" expanded="true" />
-                <element signature="n#getTableInfos#0;n#Model#0;n#!!top" expanded="true" />
-                <element signature="n#getForeingKeyTable#0;n#Model#0;n#!!top" expanded="true" />
-                <element signature="n#getForeingTables#0;n#Model#0;n#!!top" expanded="true" />
-                <marker date="1469018996925" expanded="true" signature="1692:1995" ph="select table... KEY_COLUMN_USAGE" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,11 +157,12 @@
         <option value="$PROJECT_DIR$/models/CLassManagerModel.php" />
         <option value="$PROJECT_DIR$/libs/Model.php" />
         <option value="$PROJECT_DIR$/libs/Controller.php" />
-        <option value="$PROJECT_DIR$/views/fake/index.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/vendor/fake/_fake.json" />
-        <option value="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/views/fake/index.php" />
+        <option value="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" />
+        <option value="$PROJECT_DIR$/vendor/fake/_fake.sql" />
       </list>
     </option>
   </component>
@@ -173,12 +172,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1066" />
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1306" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -205,6 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -370,14 +373,73 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
+            <PATH_ELEMENT USER_OBJECT="vendor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WebUtilities">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="vendor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="fake">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WebUtilities">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WebUtilities">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WebUtilities">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,45 +447,11 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="prop_add_unversioned_files" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="debugOptions">
-        <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
-          <option name="modulesNotToInterpret">
-            <set />
-          </option>
-        </ErlangDebugOptions>
-      </option>
-      <option name="erlFlags" value="" />
-      <option name="moduleAndFunction" value="" />
-      <option name="params" value="" />
-      <option name="useTestCodePath" value="false" />
-      <option name="workDirectory" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="debugOptions">
-        <ErlangDebugOptions>
-          <option name="autoUpdateModulesNotToInterpret" value="true" />
-          <option name="modulesNotToInterpret">
-            <set />
-          </option>
-        </ErlangDebugOptions>
-      </option>
-      <option name="workDirectory" />
-      <module />
-      <option name="functionNames">
-        <set />
-      </option>
-      <option name="kind" value="MODULE" />
-      <option name="moduleNames">
-        <set />
-      </option>
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -435,12 +463,6 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="command" value="eunit" />
-      <option name="skipDependencies" value="true" />
-      <module />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -476,6 +498,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d61c7069-8f93-4720-a5ee-e51258ef766f" name="Default" comment="" />
@@ -483,20 +508,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469017060627</updated>
+      <workItem from="1469045190762" duration="21000" />
+      <workItem from="1469045300378" duration="6847000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6868000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="-7" y="3" width="1306" height="772" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.251938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -507,6 +538,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -540,6 +572,180 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/fake/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navLeft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="n#sortTables#0;n#FakeDataGeneratorController#0;n#!!top" expanded="false" />
+            <marker date="1469054876020" expanded="true" signature="2513:2598" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2690" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2694" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2716" ph="INSERT INTO ${$infos['table']}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ClassManagerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CLassManagerModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
+          <folding>
+            <marker date="1469044906687" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+            <element signature="e#193#254#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/fake/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navLeft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="n#sortTables#0;n#FakeDataGeneratorController#0;n#!!top" expanded="false" />
+            <marker date="1469054876020" expanded="true" signature="2513:2598" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2690" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2694" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2716" ph="INSERT INTO ${$infos['table']}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ClassManagerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/CLassManagerModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
+          <folding>
+            <marker date="1469044906687" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#7#191#0#PHP" expanded="false" />
+            <element signature="e#193#254#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/fake/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -559,7 +765,7 @@
         <state relative-caret-position="153">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="42" />
           <folding>
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="true" />
+            <element signature="e#7#191#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,17 +775,11 @@
         <state relative-caret-position="323">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="n#__construct#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#index#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generate#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#proccessMetaData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateSimple#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateComplex#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469027177624" expanded="true" signature="2197:2281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469027177624" expanded="true" signature="2197:2282" ph="INSERT INTO ${$infos['table']}... " />
+            <element signature="n#sortTables#0;n#FakeDataGeneratorController#0;n#!!top" expanded="false" />
+            <marker date="1469054876020" expanded="true" signature="2513:2598" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2690" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2694" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2716" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
         </state>
       </provider>
@@ -589,7 +789,7 @@
         <state relative-caret-position="221">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
           <folding>
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="true" />
+            <element signature="e#7#191#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,9 +799,7 @@
         <state relative-caret-position="238">
           <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
           <folding>
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-            <marker date="1469018826522" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
+            <marker date="1469044906687" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
           </folding>
         </state>
       </provider>
@@ -610,14 +808,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="59" column="38" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="38" />
-          <folding>
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#useDataBase#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getTableInfos#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getForeingKeyTable#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getForeingTables#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1469018996925" expanded="true" signature="1692:1995" ph="select table... KEY_COLUMN_USAGE" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,11 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="n#__construct#0;n#Controller#0;n#!!top" expanded="false" />
-            <element signature="n#loadModel#0;n#Controller#0;n#!!top" expanded="false" />
-            <element signature="n#debug#0;n#Controller#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#5636#5693#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,22 +845,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/crud/Gestion_old/public/css/iconFont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="429" column="19" selection-start-line="429" selection-start-column="19" selection-end-line="429" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/crud/Gestion_old/public/css/iconFont.css" />
     <entry file="file://$PROJECT_DIR$/controllers/QueryGeneratorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="n#index#0;n#QueryGeneratorController#0;n#!!top" expanded="false" />
-            <marker date="1435757564855" expanded="true" signature="2439:2451" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,16 +857,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="357">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="true" />
+            <element signature="e#7#191#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -703,37 +874,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <element signature="n#__construct#0;n#Controller#0;n#!!top" expanded="false" />
-            <element signature="n#loadModel#0;n#Controller#0;n#!!top" expanded="false" />
-            <element signature="n#debug#0;n#Controller#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ClassManagerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="425">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
           <folding>
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="true" />
+            <element signature="e#7#191#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/fake/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,61 +891,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="799">
           <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-          <folding>
-            <element signature="n#__construct#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#useDataBase#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getTableInfos#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getForeingKeyTable#0;n#Model#0;n#!!top" expanded="true" />
-            <element signature="n#getForeingTables#0;n#Model#0;n#!!top" expanded="true" />
-            <marker date="1469018996925" expanded="true" signature="1692:1995" ph="select table... KEY_COLUMN_USAGE" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/fake/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/CLassManagerModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
+        <state relative-caret-position="193">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="11" />
           <folding>
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="true" />
-            <marker date="1469018826522" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
+            <marker date="1469044906687" expanded="true" signature="16329:16345" ph="SELECT ${$pk... ${$table}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+        <state relative-caret-position="239">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
           <folding>
-            <element signature="n#__construct#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#index#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generate#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#proccessMetaData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateSimple#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateComplex#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469027177624" expanded="true" signature="2197:2281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469027177624" expanded="true" signature="2197:2282" ph="INSERT INTO ${$infos['table']}... " />
+            <element signature="n#sortTables#0;n#FakeDataGeneratorController#0;n#!!top" expanded="false" />
+            <marker date="1469054876020" expanded="true" signature="2513:2598" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2690" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2694" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469054876020" expanded="true" signature="2653:2716" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/vendor/fake/_fake.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

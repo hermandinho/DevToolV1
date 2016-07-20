@@ -29,37 +29,41 @@ class FakeDataGeneratorController extends Controller
         $table = $_POST['table'];
         $type = $_POST['type'];
         $number = $_POST['number'];
+        $generateId = $_POST['generateId'];
 
-        $this->proccessMetaData($table, $type, $number);
+        $this->proccessMetaData($table, $type, $number, $generateId);
     }
 
-    private function proccessMetaData($table, $type, $number)
+    private function proccessMetaData($table, $type, $number, $generateId)
     {
         $desc = $this->model->getForeingTables($table);
 
         if (count($desc) == 0) {
-            $this->generateSimple($table, $type, $number);
+            $this->generateSimple($table, $type, $number, $generateId);
         } else {
-            echo "COmplex";
+            echo "Complex";
         }
     }
 
-    private function generateSimple($table, $type, $number)
+    private function generateSimple($table, $type, $number, $generateId)
     {
         //echo "Generate " . $number ." data of type ".$type . " for ".$table ."<br>";
-        $this->generateFakeData($table, $number, $type);
+        $this->generateFakeData($table, $number, $type, $generateId);
     }
 
     private function generateComplex($table, $type, $number)
     {}
 
-    private function generateFakeData($table, $size, $type)
+    private function generateFakeData($table, $size, $type, $generateId)
     {
         if(!is_dir(GENERATED_FAKE_DATA))
         {
             mkdir(GENERATED_FAKE_DATA);
         }
-        $fp = fopen(GENERATED_FAKE_DATA."_fake.".$type, "w");
+        if(is_file(GENERATED_FAKE_DATA."_fake.".$type)) {
+            //unlink(GENERATED_FAKE_DATA."_fake.".$type);
+        }
+        $fp = fopen(GENERATED_FAKE_DATA."_fake.".$type, "a+");
 
         $content = "";
         $tableInfos = $this->processTableInfos($this->model->getTableInfos($table));
@@ -68,7 +72,7 @@ class FakeDataGeneratorController extends Controller
 
         switch ($type) {
             case "sql":
-                $this->generateSQLFakeData($tableInfos, $size, $fp);
+                $this->generateSQLFakeData($tableInfos, $size, $fp, $generateId);
                 break;
             case "xml":
                 break;
@@ -81,10 +85,14 @@ class FakeDataGeneratorController extends Controller
         return true;
     }
 
-    private function generateSQLFakeData($infos, $size, $fp)
+    private function generateSQLFakeData($infos, $size, $fp, $generateId)
     {
         $content = "";
-        $content .= " INSERT INTO " . $infos['table'] . " ('" . $infos['pk'] ."'," . $infos['string'] . ") " .PHP_EOL;
+        if ($generateId == 'true') {
+            $content .= " INSERT INTO " . $infos['table'] . " (`" . $infos['pk'] ."`," . $infos['string'] . ") " .PHP_EOL;
+        } else {
+            $content .= " INSERT INTO " . $infos['table'] . " (" . $infos['string'] . ") " .PHP_EOL;
+        }
 
         for ($i = 0; $i<$size; $i++) {
             $content .= " VALUES (" ;
@@ -92,37 +100,48 @@ class FakeDataGeneratorController extends Controller
             foreach ($infos['fields'] as $key => $field) {
                 if($field['Name'] == $infos['pk']) {
                     //$content .= $this->guestFakeData($field['Name'], $field['Type'], true);
-                    $content .= ($i+1) . ",";
+                    if($generateId == 'true'){
+                        $content .= ($i+1) . ",";
+                    }
                 } else{
                     $data = $this->guestFakeData($field['Name'], $field['Type']);
-                    $content .= $data;
-
+                    $content .= $data . ", ";
                 }
-
             }
+            $content = rtrim($content, ", ");
             $content .= " ),".PHP_EOL;
         }
+        $content= rtrim($content, ",".PHP_EOL);
+        $content .=";" . PHP_EOL . PHP_EOL;
 
-        echo $content;
+        fputs($fp,trim($content));
+        echo  $content;
+        return $content;
     }
 
     private function guestFakeData($column, $type, $is_pk = false)
     {
         $data = "";
-        //echo " * " . $type.PHP_EOL;
-        if (preg_match("/int/i", $type) ) {
-            $data = $this->guestInt() . ", ";
+
+        if (preg_match("/(int|long)/i", $type) ) {
+            //echo " * " . $type.PHP_EOL."<br>";
+            $data = $this->guestInt();
         } elseif (preg_match("/varchar/i", $type)) {
             $length = explode("(",$type);
             $length = $length[1];
             $length = explode(")",$length);
             $length = $length[0];
-
-            $data = $this->guestString($column, $length) . ", ";
+            $data = $this->guestString($column, $length);
         } elseif (preg_match("/timestamp/i", $type)) {
             //timestamp
+            $data = mktime();
+        } elseif (preg_match("/bool/i", $type)) {
+            $tmp = [true, false];
+            $index = array_rand($tmp);
+            $data = $tmp[$index];
+        } elseif (preg_match("/(float|double)/i", $type)) {
+            $data = $this->float_rand(0, 500);
         }
-
         return $data;
     }
 
@@ -163,21 +182,59 @@ class FakeDataGeneratorController extends Controller
         return array_merge($no_related, $related);
     }
 
-    function __call($name, $arguments)
+    function __call($function, $arguments)
     {
-        switch (true)
+        switch ($function)
         {
-            case "gustInt":
+            case "guestInt":
                 return rand(1, 100);
                 break;
             case "guestString":
+                $column = $arguments[0];
+                $size = $arguments[1];
 
-                //if(preg_match("/[name]/i"))
-
+                if(preg_match("/(name|nom)/i", $column)) {
+                    $raw = unserialize(FAKE_NAMES);
+                    $rand = array_rand($raw);
+                    $data = $raw[$rand];
+                    return " '" . $data . "' ";
+                } else if(preg_match("/(prenom|surname)/i", $column)){
+                    $raw = unserialize(FAKE_SURNAMES);
+                    $rand = array_rand($raw);
+                    $data = $raw[$rand];
+                    return " `" . $data . "` ";
+                } else if(preg_match("/(label|libelle)/i", $column)){
+                    $raw = unserialize(FAKE_LABELS);
+                    $rand = array_rand($raw);
+                    $data = $raw[$rand];
+                    return " `" . $data . "` ";
+                } else if(preg_match("/(image|logo)/i", $column)){
+                    $raw = unserialize(FAKE_IMAGES);
+                    $rand = array_rand($raw);
+                    $data = $raw[$rand];
+                    return " `" . $data . "` ";
+                } else if(preg_match("/(text|description|details|body|content)/i", $column)){
+                    $raw = unserialize(FAKE_DESCRIPTIONS);
+                    $rand = array_rand($raw);
+                    $data = $raw[$rand];
+                    return " `" . $data . "` ";
+                } else {
+                    return "Cannot guest data for field (".$column .")";
+                }
                 break;
+
         }
         return null;
     }
 
+    private function float_rand($min, $Max, $round=2){
+        //validate input
+        if ($min > $Max) { $min=$Max; $max=$min; }
+        else { $min = $min; $max=$Max; }
+        $randomfloat = $min + mt_rand() / mt_getrandmax() * ($max - $min);
+        if($round > 0)
+            $randomfloat = round($randomfloat,$round);
 
+        return $randomfloat;
+    }
 }
