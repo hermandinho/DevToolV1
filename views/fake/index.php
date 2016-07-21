@@ -35,7 +35,7 @@
                                 ?>
                                 <div class="input-control switch" data-role="input-control">
                                     <label class="inline-block" style="margin-right: 20px">
-                                        <input type="checkbox" class="getSelectedField" name="selectedClasseFields[<?php echo $i; ?>]" value="<?php echo $db_fields[$i]; ?>" >
+                                        <input type="checkbox" class="getSelectedField" name="selectedClasseFields[]" value="<?php echo $db_fields[$i]; ?>" checked >
                                         <span class="check"></span>
                                         <strong><?php echo $db_fields[$i]; ?></strong>
                                     </label>
@@ -53,9 +53,9 @@
                 <td>
                     <div class="input-control">
                         <select name="data_type" id="data_type">
-                            <option value="json">JSON</option>
+                            <option value="json" disabled>JSON</option>
                             <option value="sql">Sql</option>
-                            <option value="xml">XML</option>
+                            <option value="xml" disabled>XML</option>
                         </select>
                     </div>
                 </td>
@@ -65,7 +65,7 @@
                 <td><label for="number">Numbre</label></td>
                 <td>
                     <div class="input-control select">
-                        <input type="text" id="number" class="number" value="5">
+                        <input type="text" id="number" name="number" class="number" value="5">
                     </div>
                 </td>
             </tr>
@@ -73,7 +73,7 @@
             <tr>
                 <td><label for="use_id">set Id</label></td>
                 <td>
-                    <input type="checkbox"  id="use_id" name="use_id" class="use_id">
+                    <input type="checkbox"  id="use_id" name="use_id" value="1" checked class="use_id">
                 </td>
             </tr>
 
@@ -112,7 +112,30 @@
 <script>
     $(document).ready(function(){
         $(".window").hide();
-        $("#generate").click(function(e){
+
+        $(".main_form").submit(function (e) {
+            e.preventDefault();
+            var data = [];
+            var tables = [];
+            $(".getSelectedField:checked").each(function(){
+                tables.push($(this).val());
+            });
+            $.post(
+                "FakeDataGenerator/generate",
+                {
+                    "tables": tables,
+                    "use_id" : $("#use_id").is(":checked"),
+                    "number": $("#number").val(),
+                    "data_type": $("#data_type").val()
+                },
+                function (data) {
+                    $(".window").show();
+                    $("#output").append(data);
+                }
+            )
+        });
+
+        $("#generate___").click(function(e){
             e.preventDefault();
             var data = $(".main_form").serializeArray();
             var selectedFieldNumber=0;

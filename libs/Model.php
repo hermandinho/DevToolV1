@@ -20,6 +20,7 @@ class Model{
         //echo "DESC ".$table;
         $this->useDataBase();
         $describe = $this->bdd->query("DESC ".$table);
+        $donnee = [];
         //echo $describe->rowCount();
         if($describe){
             while ($data = $describe->fetch()){
@@ -27,6 +28,7 @@ class Model{
                     "Name" => $data["Field"],
                     "Type" => $data["Type"],
                     "Key" => $data["Key"],
+                    "Unique" => ($data['Key'] == "UNI")
                 );
             }
         }
@@ -35,14 +37,27 @@ class Model{
     }
 
 
+    public function isUnique($columl, $table)
+    {
+        $this->useDataBase();
+        $describe = $this->bdd->query("DESC ".$table);
+        while ($data = $describe->fetch()){
+            if($data['Key'] == "UNI") {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public function getForeingKeyTable($fk,$table){
         $foreigneData = $this->getForeingTables($table);
         for($i=0;$i<count($foreigneData);$i++) {
             if($foreigneData[$i]['Column_Name'] == $fk){
                 $ftable = $foreigneData[$i]['Foreign_table'];
+                return $ftable;
             }
         }
-        return $ftable;
+        return false;
     }
 
     public function getForeingTables($table){
