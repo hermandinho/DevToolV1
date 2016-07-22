@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d61c7069-8f93-4720-a5ee-e51258ef766f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" afterPath="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/Model.php" afterPath="$PROJECT_DIR$/libs/Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fake/_fake.sql" afterPath="$PROJECT_DIR$/vendor/fake/_fake.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/fake/index.php" afterPath="$PROJECT_DIR$/views/fake/index.php" />
     </list>
@@ -31,57 +29,45 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/fake/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-              <folding>
-                <element signature="e#4368#6305#0#HTML" expanded="true" />
-                <element signature="e#4444#5123#0#HTML" expanded="true" />
-                <element signature="e#4592#4651#0#HTML" expanded="true" />
-                <element signature="e#4992#5099#0#HTML" expanded="true" />
-                <element signature="e#5170#6297#0#HTML" expanded="true" />
-                <element signature="e#5350#5470#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/CrudController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="e#7#191#0#PHP" expanded="false" />
-                <element signature="e#193#253#0#PHP" expanded="false" />
-                <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FakeDataGeneratorController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FakeDataGeneratorController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="310" column="55" selection-start-line="310" selection-start-column="55" selection-end-line="310" selection-end-column="55" />
+            <state relative-caret-position="459">
+              <caret line="199" column="43" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
               <folding>
                 <element signature="n#generate#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
                 <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
                 <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
                 <element signature="n#generateJSONFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <element signature="n#guestFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
+                <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
                 <element signature="n#randomPassword#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-                <marker date="1469107682693" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
-                <marker date="1469107682693" expanded="false" signature="8341:8689" ph="{...}" />
+                <marker date="1469190514417" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
+                <marker date="1469190514417" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navLeft.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/navLeft.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="111" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="111" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,19 +85,21 @@
       <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="799">
               <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_fake.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_fake.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/fake/_fake.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="384" />
-              <folding />
+              <caret line="1" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="92" />
+              <folding>
+                <marker date="1469177112102" expanded="true" signature="0:12" ph=" INSERT statement" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +107,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="289">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
@@ -131,12 +119,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-              <folding>
-                <element signature="e#7#191#0#PHP" expanded="false" />
-                <element signature="e#193#261#0#PHP" expanded="false" />
-                <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-                <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,25 +129,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1853">
               <caret line="128" column="11" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="11" />
-              <folding>
-                <element signature="e#7#191#0#PHP" expanded="false" />
-                <element signature="e#193#256#0#PHP" expanded="false" />
-                <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-                <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +137,7 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="170">
               <caret line="39" column="28" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="n#getTableInfos#0;n#Model#0;n#!!top" expanded="true" />
@@ -201,9 +166,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/libs/Model.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/vendor/fake/_fake.sql" />
         <option value="$PROJECT_DIR$/views/fake/index.php" />
         <option value="$PROJECT_DIR$/controllers/FakeDataGeneratorController.php" />
-        <option value="$PROJECT_DIR$/vendor/fake/_fake.sql" />
       </list>
     </option>
   </component>
@@ -220,7 +185,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -248,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -481,6 +445,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -558,10 +523,10 @@
     <option name="totallyTimeSpent" value="6868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1066" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25426438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25694445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -604,7 +569,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1469177112102" expanded="true" signature="0:12" ph=" INSERT statement" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,12 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#261#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,25 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="128" column="11" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="11" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#256#0#PHP" expanded="false" />
-            <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,10 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#254#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,14 +623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
           <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
-          <folding>
-            <element signature="e#4368#6305#0#HTML" expanded="true" />
-            <element signature="e#4444#5123#0#HTML" expanded="true" />
-            <element signature="e#4592#4651#0#HTML" expanded="true" />
-            <element signature="e#4992#5099#0#HTML" expanded="true" />
-            <element signature="e#5170#6297#0#HTML" expanded="true" />
-            <element signature="e#5350#5470#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -706,11 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#253#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,18 +652,17 @@
             <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateJSONFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#guestFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
+            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#randomPassword#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469107682693" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="false" signature="8341:8689" ph="{...}" />
+            <marker date="1469190514417" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
         </state>
       </provider>
@@ -751,12 +679,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#261#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,25 +687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
           <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#256#0#PHP" expanded="false" />
-            <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -803,10 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#254#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,14 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
           <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
-          <folding>
-            <element signature="e#4368#6305#0#HTML" expanded="true" />
-            <element signature="e#4444#5123#0#HTML" expanded="true" />
-            <element signature="e#4592#4651#0#HTML" expanded="true" />
-            <element signature="e#4992#5099#0#HTML" expanded="true" />
-            <element signature="e#5170#6297#0#HTML" expanded="true" />
-            <element signature="e#5350#5470#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,11 +731,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#253#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,18 +744,17 @@
             <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateJSONFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#guestFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
+            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#randomPassword#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469107682693" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="false" signature="8341:8689" ph="{...}" />
+            <marker date="1469190514417" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
         </state>
       </provider>
@@ -882,12 +771,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#261#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,25 +779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2176">
           <caret line="128" column="13" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="13" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#256#0#PHP" expanded="false" />
-            <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,10 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#254#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,14 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#4368#6305#0#HTML" expanded="true" />
-            <element signature="e#4444#5123#0#HTML" expanded="true" />
-            <element signature="e#4592#4651#0#HTML" expanded="true" />
-            <element signature="e#4992#5099#0#HTML" expanded="true" />
-            <element signature="e#5170#6297#0#HTML" expanded="true" />
-            <element signature="e#5350#5470#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,11 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#253#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,18 +836,17 @@
             <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateJSONFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#guestFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
+            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#randomPassword#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469107682693" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="false" signature="8341:8689" ph="{...}" />
+            <marker date="1469190514417" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
         </state>
       </provider>
@@ -1005,12 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#261#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,25 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#256#0#PHP" expanded="false" />
-            <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/navLeft.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/about/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1079,10 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#254#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,11 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#253#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#CrudController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,12 +935,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#261#0#PHP" expanded="false" />
-            <element signature="n#index#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-            <element signature="n#generate#0;n#ClassManagerController#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,31 +951,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
           <caret line="128" column="11" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="11" />
-          <folding>
-            <element signature="e#7#191#0#PHP" expanded="false" />
-            <element signature="e#193#256#0#PHP" expanded="false" />
-            <element signature="n#describeDatabase#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnAddQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnEditQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDeleteQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getTablePK#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#describeTable#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#TMP#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetInfosQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnRetriveDataQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnListeQuery#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnGetData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#returnDataNumber#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#buildModel#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#retriveData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-            <element signature="n#getData#0;n#CLassManagerModel#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="799">
           <caret line="239" column="9" selection-start-line="239" selection-start-column="9" selection-end-line="239" selection-end-column="9" />
           <folding />
         </state>
@@ -1177,7 +965,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="170">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="n#getTableInfos#0;n#Model#0;n#!!top" expanded="true" />
@@ -1198,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="289">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
@@ -1212,51 +1000,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fake/_fake.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="92" />
+          <folding>
+            <marker date="1469177112102" expanded="true" signature="0:12" ph=" INSERT statement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navLeft.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="111" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/fake/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="e#4368#6305#0#HTML" expanded="true" />
-            <element signature="e#4444#5123#0#HTML" expanded="true" />
-            <element signature="e#4592#4651#0#HTML" expanded="true" />
-            <element signature="e#4992#5099#0#HTML" expanded="true" />
-            <element signature="e#5170#6297#0#HTML" expanded="true" />
-            <element signature="e#5350#5470#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/FakeDataGeneratorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="310" column="55" selection-start-line="310" selection-start-column="55" selection-end-line="310" selection-end-column="55" />
+        <state relative-caret-position="459">
+          <caret line="199" column="43" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
           <folding>
             <element signature="n#generate#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateSQLFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#generateJSONFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <element signature="n#guestFakeData#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
+            <element signature="n#__call#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
             <element signature="n#randomPassword#0;n#FakeDataGeneratorController#0;n#!!top" expanded="true" />
-            <marker date="1469107682693" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
-            <marker date="1469107682693" expanded="false" signature="8341:8689" ph="{...}" />
+            <marker date="1469190514417" expanded="true" signature="4073:4156" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4264" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4281" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4285" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4286" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4227:4294" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4365:4428" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4543:4555" ph="INSERT INTO ${$infos['table']}... " />
+            <marker date="1469190514417" expanded="true" signature="4636:4699" ph="INSERT INTO ${$infos['table']}... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fake/_fake.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="63" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="384" />
-          <folding />
         </state>
       </provider>
     </entry>

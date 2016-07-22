@@ -1,5 +1,5 @@
 <div style="width: 80%;float: right">
-    <center class="tile-area-grayed" style="width: 98%"><h1><strong><i class="icon-code fg-white"></i> Fake Date Generator</strong></h1></center>
+    <center class="tile-area-grayed" style="width: 98%"><h1><strong><i class="icon-code fg-white"></i> Fake Data Generator</strong></h1></center>
 
     <?php
     $test = Session::get("selected_db");

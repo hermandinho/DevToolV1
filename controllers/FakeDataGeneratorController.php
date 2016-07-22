@@ -177,7 +177,7 @@ class FakeDataGeneratorController extends Controller
     {
         $data = "";
 
-        if (preg_match("/(^int|long$)/i", $type) ) {
+        if (preg_match("/(^int|long$|smallint|bigint)/i", $type) ) {
             //echo " * " . $type.PHP_EOL."<br>";
             $data = $this->guestInt($table, $column);
         } elseif (preg_match("/varchar/i", $type)) {
@@ -194,10 +194,10 @@ class FakeDataGeneratorController extends Controller
             $index = array_rand($tmp);
             $data = $tmp[$index];
         } elseif (preg_match("/(float|double)/i", $type)) {
-            $data = $this->float_rand(0, 500);
+            $data = $this->float_rand(0, 1000);
         } elseif (preg_match("/(text|longtext|blob)/i", $type)) {
             $data = $this->guestString($column, null, $type, $table);
-        } elseif (preg_match("/(date$)/i", $type)) {
+        } elseif (preg_match("/(date$|^date)/i", $type)) {
             $timestamp = mt_rand(1, time());
             $randomDate =  " '" .date("Y-m-d", $timestamp). "' " ;
             $data = $randomDate;
@@ -273,12 +273,12 @@ class FakeDataGeneratorController extends Controller
 
                 $isUnique = $this->model->isUnique($column,$table);
 
-                if(preg_match("/(^name|^nom)/i", $column)) {
+                if(preg_match("/(^name|^nom|last_name)/i", $column)) {
                     $raw = unserialize(FAKE_NAMES);
                     $rand = array_rand($raw);
                     $data = $raw[$rand];
                     return " '" . mysql_escape_string( $data) . "' ";
-                } else if(preg_match("/(prenom|surname)/i", $column)){
+                } else if(preg_match("/(prenom|surname|first_name)/i", $column)){
                     $raw = unserialize(FAKE_SURNAMES);
                     $rand = array_rand($raw);
                     $data = $raw[$rand];
@@ -331,7 +331,7 @@ class FakeDataGeneratorController extends Controller
                     }
                     $data = $raw[$rand];
                     return " '" . mysql_escape_string( $data) . "' ";
-                } else if(preg_match("/(image|logo)/i", $column)){
+                } else if(preg_match("/(image|logo|avatar|picture|photo)/i", $column)){
                     $raw = unserialize(FAKE_IMAGES);
                     $rand = array_rand($raw);
                     $data = $raw[$rand];
